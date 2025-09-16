@@ -1,0 +1,19 @@
+Flask>=2.0
+Flask-Login
+Flask-Migrate
+Flask-Mail
+Flask-Babel
+Flask-WTF
+SQLAlchemy
+Jinja2
+python-dotenv
+requests
+pytz
+# Optional (preferred): for PDF and Excel
+WeasyPrint==53.0 ; platform_system != "Windows"
+pdfkit
+pandas
+openpyxl
+xlsxwriter
+# Fallback pdf
+xhtml2pdf
